@@ -1,0 +1,53 @@
+# ======================
+# Android
+# ======================
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ======================
+# Large AI Model Files
+# ======================
+# These are too large for Git (>100MB). Download separately.
+# See README.md for download instructions.
+app/src/main/assets/*.bin
+app/src/main/assets/*.tflite
+
+# ======================
+# Kotlin / Java
+# ======================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate.py
+
+# ======================
+# Gradle
+# ======================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/androidTest/**/build/
